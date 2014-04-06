@@ -25,6 +25,10 @@ angular
         templateUrl: 'views/start.html',
         controller: 'StartCtrl'
       })
+      .when('/invite', {
+        templateUrl: 'views/invite.html',
+        controller: 'InviteCtrl'
+      })
       .otherwise({
         redirectTo: '/start'
       });

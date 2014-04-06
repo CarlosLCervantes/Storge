@@ -1,9 +1,9 @@
 'use strict';
 
 angular.module('clientApp')
-  .controller('SignupCtrl', function ($scope, $location, $rootScope) {
+  .controller('InviteCtrl', function ($scope, $location, $rootScope) {
     $rootScope.section = "signup";
     $scope.submit = function() {
-      $location.path("/invite");
+      $location.path("/home");
     }
   });
