@@ -1,10 +1,9 @@
 'use strict';
 
 angular.module('clientApp')
-  .controller('SignupCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('SignupCtrl', function ($scope, $rootScope) {
+    $rootScope.controllerName = "signup";
+    $scope.submit = function() {
+      
+    }
   });

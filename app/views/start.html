@@ -1,4 +1,4 @@
-<div id="page-start">
+<div id="page-start" ng-controller="StartCtrl">
   <div class="row">
     <div id='logo' class="circle">
       <span class="glyphicon glyphicon-heart">
@@ -26,13 +26,13 @@
   </div>
   <div class="row">
     <div class="col-xs-6 col-xs-offset-3">
-      <button class="btn-box btn-cta">Sign Up</button>
+      <a class="btn-box btn-cta" ng-href="#signup">Sign Up</a>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-12">
       <strong class="super-strong">
-        Have an account? <a ng-href="derp">Sign up</a>
+        Have an account? <a ng-href="#login">Login Now</a>
       </strong>
     </div>
   </div>
