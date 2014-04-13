@@ -1,8 +1,7 @@
-
 body {
   font-family: 'Open Sans';
   font-size: 16px;
-  color:#000000;
+  color: #000000;
 }
 
 div[id^="page"] {
@@ -13,11 +12,12 @@ div[id^="page"] {
 div#logo {
   text-align: center;
   margin: auto;
-  background-color:#D37198;
+  background-color: #D37198;
   border-radius: 35px;
   width: 50px;
   height: 50px;
 }
+
 div#logo span {
   color: #fff;
   font-size: 30px;
@@ -50,7 +50,7 @@ h1#app-title {
 }
 
 .pink {
-  color:#D37198;
+  color: #D37198;
 }
 
 .btn-box {
@@ -68,7 +68,7 @@ h1#app-title {
 }
 
 .btn-cta {
-  background-color:#759BD3;
+  background-color: #759BD3;
   font-size: 20px;
   width: 100%;
 }
@@ -81,10 +81,10 @@ h1#app-title {
 .btn-cta-main {
   font-family: "Helvetica Neue";
   font-weight: lighter;
-  background-color:#ECECFB;
+  background-color: #ECECFB;
   font-size: 20px;
   width: 100%;
-  color:#CD729B;
+  color: #CD729B;
 }
 
 .btn-cta-main:hover {
@@ -115,18 +115,13 @@ div.section input[type='text'] {
 }
 
 body.signup {
-   background: url(../images/trans_bg.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(../images/trans_bg.png) no-repeat center center fixed;
   background-size: cover;
 }
 
-
 /*Start*/
-div#page-start div {
-}
+
+
 
 /*Signup*/
-div#page-signup div {
-}
+
