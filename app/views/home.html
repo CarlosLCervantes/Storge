@@ -1,1 +1,17 @@
-<p>This is the home view.</p>
+<div id="page-home" ng-controller="HomeCtrl">
+	<!-- Header Please God Move To Partial -->
+	<!-- End Of Header -->
+	<div id="question">
+		<div id="question-text" class="">
+			<h1>{{question.text}}</h1>
+		</div>
+		<ul id="answers-list" class="list-unstyled">
+			<li ng-repeat="option in question.options" ng-class="{selected: selectedOption.id == option.id}" ng-click="selectOption(option)">{{option.text}}</li>
+			<!--<li class="selected">Lorem Ipsum Delor Magnus Incantum</li>-->
+		</ul>
+		<div id="actions">
+			<a id="answer" ng-class="{inactive: selectedOption == null,'btn-box': true, 'btn-cta-main': true}" ng-click="answer()">ANSWER QUESTION</a>
+			<a id="skip" class="btn-box btn-skip">skip</a>
+		</div>
+	</div>
+</div>

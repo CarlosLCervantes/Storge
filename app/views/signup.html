@@ -4,26 +4,25 @@
       <h1>SIGN UP</h1>
     </div>
   </div>
-
   <div class="section">
     <div class="row">
       <div class="col-xs-12">
-        <input type="text" placeholder="First Name"></input>
+        <input type="text" placeholder="First Name" ng-model="user.first_name" />
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <input type="text" placeholder="Email"></input>
+        <input type="text" placeholder="Email" ng-model="user.email"></input>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <input type="text" placeholder="Phone"></input>
+        <input type="text" placeholder="Phone" ng-model="user.phone"></input>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <input type="text" placeholder="Password"></input>
+        <input type="text" placeholder="Password" ng-model="user.password"></input>
       </div>
     </div>
   </div>
@@ -37,5 +36,4 @@
       <a class="btn-box btn-cta-main" href="javascript:void(0);" ng-click="submit()">Create Account</a>
     </div>
   </div>
-
 </div>

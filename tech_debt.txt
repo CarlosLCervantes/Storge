@@ -1,0 +1,2 @@
+1. There is no abstraction for getting the current user. It should have a global setter and getter function.
+2. Header should be a template that is shared in the app.
